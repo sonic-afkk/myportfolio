@@ -4,7 +4,7 @@ const submitBtn = document.querySelector("#submit-btn");
 const popup = document.querySelector(".popup");
 const popupCloseBtn = document.querySelector(".popup-close");
 const APIURL = "https://api.web3forms.com/submit";
-const APIKEY = myEnv.getVariable("web3FormsApiKey");
+const APIKEY = getEnv.getVariable("web3FormsApiKey");
 
 // form submit event
 form.addEventListener("submit", async (e) => {
